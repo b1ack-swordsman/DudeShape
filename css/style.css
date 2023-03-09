@@ -378,6 +378,7 @@ a {
    display: flex;
    justify-content: space-between;
    margin: auto;
+   width: 720px;
 
 }
 
@@ -921,6 +922,7 @@ a {
       display: flex;
       flex-direction: column;
       text-align: center;
+
    }
 
 
@@ -1210,6 +1212,10 @@ a {
       top: 50px;
       z-index: 1;
 
+   }
+
+   .furniture-texts {
+      width: auto;
    }
    
 
