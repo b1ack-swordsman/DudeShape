@@ -1100,6 +1100,16 @@ a {
 
    /* subscribe */
 
+   .subscribe-text {
+      width: 300px;
+      margin: 0 auto;
+      padding: 40px 0;
+   }
+
+   .subscribe-text .dude-title {
+      padding-bottom: 30px;
+   }
+
    .subscribe-title {
       width: auto;
       font-size: 26px;
@@ -1145,7 +1155,7 @@ a {
    }
 
    .reviews-text {
-      width: auto;
+      width: 400px;
       padding-top: 50px;
 
    }
@@ -1156,6 +1166,7 @@ a {
    }
 
    .reviews-text .dude-subtitle {
+      width: 400px;
       font-size: 12px;
       line-height: 1.5;
       padding-bottom: 20px;
@@ -1188,6 +1199,8 @@ a {
       display: flex;
       flex-direction: column;
    }
+
+   
 
    .dude-text {
       text-align: center;
@@ -1445,7 +1458,7 @@ a {
    }
 
    .header-text {
-      font-size: 36px;
+      font-size: 30px;
 
    }
 
@@ -1469,6 +1482,10 @@ a {
 
    .about-block_1 {
       width: auto;
+   }
+
+   .about-block_subtitle {
+      width: 270px;
    }
 
    .about-block_info {
@@ -1507,25 +1524,32 @@ a {
 
    .catalog-title {
       padding-bottom: 20px;
-      width: 150px;
+      width: 80px;
+      line-height: 1;
+      font-size: 12px;
+      padding-left: 15px;
       
    }
 
    .catalog-btns {
-      padding: 20px 20px 0 0;
+      padding: 2px 20px 0 0;
    }
+
 
 
    .catalog-sell {
       width: 200px;
+      align-items: center;
    } 
    
    .catalog-price {
       padding-left: 20px;
+      font-size: 18px;
    }
 
    .catalog-btn {
       padding-right: 20px;
+
    }
 
    /* reviews */
@@ -1540,7 +1564,7 @@ a {
    /* dude */
 
    .dude-subtitle {
-      width: auto !important;
+      width: 250px !important;
 
    }
 
@@ -1560,7 +1584,7 @@ a {
    }
 
    .subscribe-subtitle {
-      padding-top: 40px;
+      padding-top: 0;
    }
 
    .subscribe-input  {
