@@ -91,7 +91,7 @@ a {
    font-weight: 400;
    font-size: 20px;
    line-height: 25px;
-   margin: 20px 0 35px 0;
+   padding: 25px 0 35px 0;
 }
 
 
@@ -736,6 +736,11 @@ a {
    margin-right: 140px;
 }
 
+.footer-2_texts {
+   display: flex;
+   flex-direction: column;
+}
+
 .footer-2_texts p {
    font-family: 'Montserrat';
    font-style: normal;
@@ -745,6 +750,7 @@ a {
 }
 
 .footer-2_text {
+   color: #fff;
    font-family: 'DM Sans';
    font-style: normal;
    font-weight: 400;
@@ -760,6 +766,11 @@ a {
    margin-right: 100px;
 }
 
+.footer-3_texts {
+   display: flex;
+   flex-direction: column;
+}
+
 .footer-3_texts p {
    font-family: 'Montserrat';
    font-style: normal;
@@ -769,7 +780,8 @@ a {
    padding-bottom: 27px;
 }
 
-.footer-3_text {
+.footer-3_text  {
+   color: #fff;
    font-family: 'DM Sans';
    font-style: normal;
    font-weight: 400;
@@ -1319,6 +1331,12 @@ a {
 
 @media (max-width: 414px) {
 
+   .reviews-text {
+      width: 250px;
+
+   }
+
+   /* brend */
 
    .brend {
       margin-bottom: 300px;
@@ -1420,12 +1438,23 @@ a {
    /* Header */
 
    .header-title {
-      width: auto;
+      width: 250px;
+      text-align: center;
+      align-items: center;
+      padding-bottom: 40px;
    }
 
    .header-text {
       font-size: 36px;
+
    }
+
+   .header-subtitle {
+      width: 250px;
+      
+   }
+
+
 
    /* About */
 
@@ -1517,12 +1546,18 @@ a {
 
    .dude-title {
       width: auto !important;
-      font-size: 20px;
       line-height: 1.2;
+      font-size: 26px;
    }
 
 
    /* Subscribe */
+
+   .subscribe-text {
+      width: 250px;
+      text-align: center;
+      margin: 0 auto;
+   }
 
    .subscribe-subtitle {
       padding-top: 40px;
@@ -1550,6 +1585,10 @@ a {
 
    /* Brends */
 
+   .brend {
+      padding-bottom: 100px;
+   }
+
    .brends {
       width: 150px;
       display: grid;
@@ -1558,27 +1597,48 @@ a {
    }
 
    .brends-img_1 {
-      margin: 0;
+      padding-left: 40px;
+      
    }
 
    .brends-img_2 {
-      margin: 0;
+      padding-left: 10px;
+      margin: 20px 0;
    }
 
    .brends-img_3 {
       margin: 0;
+      padding-left: 25px;
    }
 
    .brends-img_4 {
-      margin: 0;
+      padding-left: 20px;
+      margin: 20px 0;
    }
 
    .brends-img_5 {
       margin: 0;
+      padding-left: 25px;
    }
 
    .brends-img_6 {
-      margin: 0;
+      padding-left: 25px;
+      margin-top: 20px;
+   }
+
+   /* footer */
+
+   .footer-1 {
+      width: 250px;
+   }
+
+   .footer-2 {
+      margin-bottom: 40px;
+   }
+
+   .footer-two {
+      display: flex;
+      flex-direction: column;
    }
 
 }
